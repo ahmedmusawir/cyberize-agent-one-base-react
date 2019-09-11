@@ -1,0 +1,30 @@
+/**
+ *
+ * Vizrek Thrive Styles
+ *
+ */
+
+/**
+ *
+ * Home Gravity form for Subscription
+ *
+ */
+
+#gform_10 {
+	display: flex;
+
+	@media (max-width: 1199px) {
+		display: block;
+	}
+
+	#input_10_1 {
+		padding: 1rem;
+		border-radius: 50px;
+	}
+
+	#gform_submit_button_10 {
+		// border: 1rem dotted green;
+		padding: 1rem 4rem !important;
+		border-radius: 50px;
+	}
+}

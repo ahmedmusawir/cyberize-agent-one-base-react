@@ -1,0 +1,82 @@
+/**
+ *
+ * Widgets Styles Vizrek
+ *
+ */
+
+
+.vizrek-footer-widget {
+
+	// border: 1rem solid white;
+
+	.icon-holder {
+		float: left;
+
+		img {
+			width: 100%;
+		}
+
+		@media (max-width: 767px) {
+			float: none;
+
+			img {
+				width: 7%;
+				margin: 0 auto;
+				clear: both;
+				display: block;
+			}
+			
+		}
+
+	}
+
+	.info-text {
+		p {
+			font-size: .8rem;
+		}
+		.info {
+			color: white;
+			font-weight: 400;
+		}
+		.email {
+			color: white;
+		}
+		
+		@media (max-width: 1199px) {
+
+			text-align: center;
+			margin-top: 1.5rem;
+		}	
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

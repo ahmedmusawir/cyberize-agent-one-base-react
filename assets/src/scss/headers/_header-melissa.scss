@@ -1,0 +1,75 @@
+/**
+ *
+ * Header Melissa Styles
+ *
+ */
+
+#header-melissa {
+
+
+	.navbar {
+		box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.50);
+		background: rgba( $white, 1 );
+		height: 150px;
+
+		.navbar-brand {
+			.logo {
+				width: 100%;
+				
+				@media (max-width: 1199px) {
+					margin-top: -1rem !important;
+				}
+				@media (max-width: 640px) {
+					width: 80% !important;
+				}
+			}
+		}
+		
+		#navbar-content {
+
+			#primary-left-menu {
+				padding-right: 2rem;
+
+			}
+			#primary-right-menu {
+				padding-left: 2rem;
+				// border: 1px solid red;
+				
+			}
+			#primary-left-menu, #primary-right-menu {
+				// margin-bottom: -2rem;
+
+				.menu-item {
+					padding-right: 1.2rem;
+
+					a {
+						font-family: $primary-font;
+						font-size: .8rem;
+						font-weight: 600;
+						text-transform: uppercase;
+						color: lighten($cg-primary, 0%);
+						white-space: pre;
+
+						&:hover {
+							color: lighten($cg-secondary, 20%);
+						}
+					}
+
+					.sub-menu {
+						// border: 1rem dotted red;
+						.dropdown-item.active {
+							background: gray;
+							color: white !important;
+						}
+					}
+				}
+				.current-menu-item {
+					a {
+						font-family: $secondary-font;
+						color: $cg-secondary !important;
+					}
+				}
+			}
+		}
+	}
+}

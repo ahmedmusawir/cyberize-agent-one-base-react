@@ -1,0 +1,290 @@
+
+
+/*======= FREEMAN STYLE START ==========*/
+
+/**
+ *
+ * GENERAL THRIVE CTA (Bottom of the Page)
+ *
+ */
+#FREEMAN-thrive-CTA {
+
+	@media (max-width: 767px) {
+		text-align: center !important;
+	}
+
+	.the-button {
+		// border: 1rem solid red;
+		@media (max-width: 800px) {
+			padding: .5rem 2rem !important;
+		}
+	}
+}
+
+/**
+*
+* FREEMAN HOME PAGE STYLES
+*
+*/
+
+
+// FREEMAN HOME BANNER
+.FREEMAN-home-header {
+
+	.page-title {
+
+		// border: 1rem solid red;
+		padding: 1.5rem;
+		padding-top: 2rem !important;
+		text-align: center;
+
+		@media (min-width: 768px) {
+			text-align: left;
+		}
+		@media (min-width: 1024px) {
+			margin-top: 8rem;
+		}
+	}
+
+	#FREEMAN-thrive-header-form {
+		// border: 1rem solid red;
+		@media (max-width: 400px) {
+			padding: 0 !important;
+		}
+	}
+}
+
+/**
+ *
+ * FREEMAN ABOUT PAGE STYLES
+ *
+ */
+.FREEMAN-about-header {
+
+	@media (max-width: 767px) {
+		min-height: 200px !important;
+
+	}
+
+	#page-title {
+		// border: 1rem solid red;
+		@media (max-width: 991px) {
+			p {
+				font-size: 2.8rem !important;
+			}
+		}
+		@media (max-width: 767px) {
+			margin-top: 0 !important;
+			margin-bottom: 2rem !important;
+		}
+	}
+}
+
+/**
+ *
+ * FREEMAN FLOOR PAGE
+ *
+ */
+.FREEMAN-floor-header {
+	// border: 1rem solid red;
+	@media (max-width: 1199px) {
+
+		#arrow-text {
+			p {
+				padding-top: 2.5rem;
+				font-size: 1.2rem !important;
+				line-height: 2rem !important;
+			}
+		}
+	}
+	@media (max-width: 991px) {
+
+		.arrow-image {
+			display: none;
+		}
+
+		#arrow-text {
+			margin-top: 10rem !important;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+
+			p {
+				font-size: 1.8rem !important;
+				line-height: 2.5rem !important;
+				font-weight: 900 !important;
+			}
+		}
+	}
+	@media (max-width: 767px) {
+		#arrow-text {
+			margin-top: 0rem !important;
+			text-align: center;
+			margin-left: 0 !important;
+
+			p {
+				font-size: 2.5rem !important;
+				font-weight: 700 !important;
+				line-height: 3rem !important;
+			}
+		}
+	}
+
+}
+
+#FREEMAN-last-btn-block {
+
+	@media (max-width: 500px) {
+
+		#orange-btn {
+			min-width: 250px !important;
+
+			a {
+				font-size: 1rem !important;
+			}
+		}
+		#the-list {
+			ul {
+				li {
+					span {
+						font-size: 1rem !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+ *
+ * FREEMAN CABINET PAGE
+ *
+ */
+#FREEMAN-cabinet-premium-block {
+	// border: 1rem solid red;
+	@media (max-width: 767px) {
+		.thrv_wrapper.tve_image_caption {
+			width: 100% !important;
+		}
+	}
+}
+
+#FREEMAN-cabinet-brands-block {
+
+	@media (max-width: 767px) {
+		.thrv_wrapper.tve_image_caption {
+			width: 100% !important;
+		}
+	}
+
+}
+
+#FREEMAN-colors-block {
+
+	@media (max-width: 767px) {
+		.thrv_wrapper.tve_image_caption {
+			width: 100% !important;
+
+		}
+	}
+}
+
+/**
+ *
+ * FREEMAN STORAGE PAGE
+ *
+ */
+.FREEMAN-storage-text-img-blocks {
+	// A GENERIC STYLE FOR ALL THE TEXT IMAGE BLOCKS
+	@media (max-width: 767px) {
+		.thrv_wrapper.tve_image_caption {
+			width: 100% !important;
+		}
+	}
+}
+
+/**
+ *
+ * FREEMAN COLOR PAGE
+ *
+ */
+
+#FREEMAN-color-page-header {
+
+	.the-title {
+		@media (max-width: 767px) {
+			// border: 1rem solid red;
+			margin-top: 0rem !important;
+			margin-bottom: 2rem !important;
+		}
+	}
+}
+
+.FREEMAN-tiles-desktop {
+	// border: 1rem solid red;
+	@media (max-width: 1023px) {
+		display: none;
+	}
+}
+
+.FREEMAN-tiles-mobile {
+	// border: 1rem solid blue;
+	@media (min-width: 1024px) {
+		display: none;
+	}
+}
+
+
+/**
+ *
+ * FREEMAN CONTACT PAGE STYLES
+ *
+ */
+
+// CONTACT HEADER
+.FREEMAN-contact-header-block {
+	// border: 1rem solid red !important;
+	@media (max-width: 767px) {
+		padding: 3rem;
+		height: 200px !important;
+
+		.contact-title {
+			// border: 1px solid red;
+			margin-top: 0 !important;
+		}
+	}
+}
+
+// CONTACT FORM BLOCK WITH MAP
+.FREEMAN-contact-form-block {
+
+	#gform_submit_button_8 {
+		width: 98% !important;
+		margin-top: 1.5rem;
+	}
+
+	@media (max-width: 767px) {
+		padding: 3rem;
+		text-align: center;
+
+		.item-center {
+			margin: auto;
+			clear: both;
+			display: block;
+		}
+	}
+	@media (max-width: 640px) {
+		padding: 1.5rem;
+
+		.form-text {
+			// border: 1rem solid blue !important;
+			padding: 0 !important;
+		}
+		.the-form {
+			// border: 1rem solid red !important;
+			margin-top: 0 !important;
+		}
+	}
+
+}
+
+/*======= FREEMAN STYLE END ==========*/

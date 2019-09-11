@@ -1,0 +1,119 @@
+/**
+ *
+ * Header freeman Styles
+ *
+ */
+
+#header-freeman {
+
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+
+	.container-fluid {
+
+		width: 90%;
+	}
+
+	#top-bar {
+		text-align: center !important;
+		background: $white;
+		z-index: 100000;
+		padding: .5rem 1rem;
+
+		@media (max-width: 766px) {
+
+			display: none !important;
+		}
+
+		h5 {
+
+			margin-bottom: 0px;
+		}
+
+		ul {
+			margin-bottom: 0px;
+		}
+
+		a {
+			color: $cg-link;
+			font-size: 15px;
+			font-weight: 400;
+		}
+
+		.top-bar-text {
+
+			i {
+				font-size: 1.5rem;
+				margin-right: 0.5rem;
+			}
+
+		}
+	}
+
+
+	.navbar {
+		background: rgba( $white, .9 );
+		height: 100px;
+
+		.navbar-brand {
+			.logo {
+				width: 100%;
+
+				@media (min-width: 1428px) {
+
+					width: 70%;
+				}
+
+				@media (max-width: 1199px) {
+					width: 46%;
+				}
+
+				@media (max-width: 568px) {
+					width: 60%;
+				}
+
+				@media (max-width: 460px) {
+					width: 70%;
+				}
+			}
+		}
+		.navbar-toggler {
+			border: 3px solid lighten($cg-primary, 20%);
+
+			.navbar-toggler-icon {
+				background-image: url('/wp-content/uploads/2018/02/new-nav-icon-40.png');
+			}
+		}
+		#navbar-content {
+			#primary-menu {
+				padding-left: 2rem;
+				// margin-bottom: -2rem;
+
+				.menu-item {
+					padding-right: 1.2rem;
+
+					a {
+						font-family: $primary-font;
+						font-size: .8rem;
+						font-weight: 700;
+						color: $black !important;
+						text-transform: uppercase;
+						color: lighten($cg-secondary, 10%);
+						white-space: pre;
+
+						&:hover {
+							color: lighten($cg-secondary, 20%);
+						}
+					}
+				}
+				.current-menu-item {
+					a {
+						font-family: $secondary-font;
+						color: $cg-link !important;
+					}
+				}
+			}
+		}
+	}
+}

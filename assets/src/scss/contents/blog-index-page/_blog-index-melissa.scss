@@ -1,0 +1,176 @@
+/**
+ *
+ * STYLES: Blog Index Block Melissa
+ *
+ */
+
+.blog-index-block-melissa {
+
+	.container-fluid {
+
+		width: 90%;
+	}
+
+	#general-blog-page-header {
+
+		h1 {
+			// color: $white;
+			font-size: 3.8rem;
+			font-weight: 500;
+			padding-top: 1rem;
+		}
+	}
+
+	article {
+
+		margin-bottom: 60px;
+		position: relative;
+
+		.entry-content {
+
+			.featured-image-box {
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.post-comment {
+
+				border-left: 1px solid #707070;
+			    padding-left: 30px;
+			    margin-left: 60px;
+
+				&::before {
+
+					content: url('../../../assets/img/comment-icon.png');
+					display: inline-block;
+					vertical-align: middle;
+					padding-right: 30px;
+				}
+			}
+
+			.cat-links {
+
+				line-height: 38px;
+
+				a {
+
+					color: $primary;
+					font-style: italic;
+					font-weight: 100;
+				}
+			}
+
+			.entry-title {
+
+				a {
+
+					color: $cg-primary;
+					font-weight: 600;
+					font-family: $primary-font;
+				}
+			}
+
+			.entry-meta {
+
+				.bylines {
+
+					a {
+
+						color: #9B9B9B;
+						font-weight: 100;
+						font-family: $primary-font;
+
+						border-right: 1px solid #707070 !important;
+						padding-right: 30px;
+    					margin-right: 60px;
+					}
+				}
+
+				.posted-on {
+
+					time {
+
+						color: #9B9B9B;
+						font-weight: 100;
+						font-family: $primary-font;
+					}
+				}
+			}
+
+			.moretag {
+
+				display: flex;
+			    /* margin-top: 15px; */
+				/*position: absolute;
+				top: -73px;*/
+				background: #fff;
+			    min-width: 120px;
+			    text-transform: uppercase;
+				font-size: 15px;
+				position: absolute;
+				margin-top: 9px;
+			}
+		}
+	}
+
+
+
+	/* ----------- PAGINATION STYLE START ------------ */
+
+	.post-nav-holder {
+
+		display: none !important;
+	}
+
+	.pgntn-page-pagination {
+
+		.pgntn-page-pagination-block {
+
+			width: 100% !important;
+
+			.pgntn-page-pagination-intro {
+
+				display: none !important
+			}
+
+			.page-numbers {
+
+				background: transparent !important;
+				border: none !important;
+				color: $cg-button !important;
+				font-weight: 600 !important;
+				margin-right: 1.1rem;
+
+				&.current {
+
+					color: $white !important;
+					background-color: $cg-accent !important;
+					width: 32px;
+					height: 32px;
+					border-radius: 100px;
+    				vertical-align: middle;
+				}
+
+				&.next {
+
+					border: 1px solid $cg-button !important;
+					text-transform: uppercase;
+					border-radius: 100px;
+					padding: 7px 30px;
+				}
+
+				&.prev {
+
+					border: 1px solid $cg-button !important;
+					text-transform: uppercase;
+					border-radius: 100px;
+					padding: 7px 30px;
+				}
+			}
+		}
+	}
+
+	/* ----------- PAGINATION STYLE END ------------ */
+ }

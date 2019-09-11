@@ -1,0 +1,54 @@
+/**
+ *
+ * Footer vizrek
+ *
+ */
+
+#footer-vizrek {
+
+	background: #0F0F0F;
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+
+	a {
+		color: white;
+	}
+
+	.widgets_wrapper {
+		.widget-title {
+			// border: 1rem solid red;
+			font-size: 1rem !important;
+			font-weight: bold;
+		}
+
+		ul {
+			li {
+				a {
+					font-size: .8rem;
+				}
+			}
+		}	
+	}
+
+	.site-info {
+		border-top: 2px solid white;
+		background-color: $cg-secondary;
+		@media (max-width: 800px) {
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			// border: 1rem solid red;
+		}
+
+		.copyright {
+			color: white;
+			padding: 1rem;
+			display: inline-block;
+			height: 8vh;
+
+			a {
+				color: #e3e3e3;
+			}
+		}				
+	}	
+
+}
